@@ -87,11 +87,9 @@ nav ul li{
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
-    /* text-align: center; */
     border-radius: 8px;
     background-color:rgb(13, 19, 33);
     border: none;
-    margin-left: 530px;
 }
 /* section2 */
 .title{
@@ -208,4 +206,88 @@ padding: 5px 10px;
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
+}
+
+
+
+/* skill section style 2 */
+
+.more-img{
+  display: flex;
+  gap: 30px;
+  margin: 50px 100px 50px 100px;
+  border: 1px solid ;
+  padding: 30px;
+  border-radius: 10px;
+}
+.frameworks{
+  color:rgb(13, 19, 33) ;
+  font-size:24px ;
+  font-weight:800;
+  list-style: 36px;
+  letter-spacing: 0%;
+}
+.deteals{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 10px 0 10px 0;
+}
+.option{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+} 
+
+/* banner 2 */
+.bg-img{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4),
+rgba(0, 0, 0, 0.4)), url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:300px ;
+  background-position: center;
+
+
+
+}
+.bg-title{
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+
+
+}
+.background{
+  padding: 80px;
+  text-align: center;
+}
+.bg-des{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 20px 0 20px 0;
+}
+
+input{
+  padding: 10px 20px;
+  width: 45%;
+  border-radius: 10px;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+.bg-btn{
+  padding: 8px 18px;
+  border-radius: 10px;
+  color:rgb(13, 19, 33) ;
+  font-size:20px ;
+  font-weight:600 ;
+  line-height: 23px;
+  border: none;
 }
